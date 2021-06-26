@@ -1,0 +1,49 @@
+.container{
+    border: 2px dashed rgb(255, 217, 1);
+}
+
+.container-fluid{
+    border: 2px dashed rgb(0, 255, 21);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+
+/***Header***/
+
+/*logo Sony*/
+#sony-logo{
+    width: auto;
+}
+/*Navbar*/
+header{
+    z-index: 1;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#navbar-bottom-right > *{
+    margin: 0 5px;
+}
+
+#navbar-bottom-right .fa-search{
+    transform: translateY(5px);
+}
+
+
+
