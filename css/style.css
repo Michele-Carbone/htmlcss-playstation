@@ -126,3 +126,32 @@ main{
 #playstation-now{
     background-color: rgb(16, 16, 70);
 }
+
+/*FOOTER*/
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin: 5px 0;
+}
+
+footer ul a{
+    color: white;
+}
+
+footer ul a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#copyright{
+    color: white;
+    text-decoration: underline;
+}
