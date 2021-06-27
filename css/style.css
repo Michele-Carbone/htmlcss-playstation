@@ -117,12 +117,12 @@ main{
 #new-games img{
     border-radius: 30px;
 }
-
+/*PLAYSTATION PLUS*/
 #playstation-plus{
     background-color: rgb(175, 175, 246);
 }
 
-.btn-plus{
-    color: rgba(14, 70, 202, 0.787);
-    background-color: rgb(167, 192, 224);
+/*PLAYSTATION NOW*/
+#playstation-now{
+    background-color: rgb(16, 16, 70);
 }
