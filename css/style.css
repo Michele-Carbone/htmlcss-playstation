@@ -1,10 +1,10 @@
-.container{
+/*.container{
     border: 2px dashed rgb(255, 217, 1);
 }
 
 .container-fluid{
     border: 2px dashed rgb(0, 255, 21);
-}
+}*/
 
 .bg-black{
     background-color: black;
@@ -14,6 +14,17 @@
     background-color: orange;
 }
 
+.text-white{
+    color: white;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.font-700{
+    font-weight: 700;
+}
 
 /***Header***/
 
@@ -45,5 +56,55 @@ header ul li{
     transform: translateY(5px);
 }
 
+/****Jumbotron****/
+main{
+    padding-top: 120px;
+}
 
+#jumbotron-top{
+    padding-top: 300px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+    height: 720px;
+}
 
+#jumbotron-top img{
+    width: 450px;
+}
+
+.btn-orange{
+    width: auto;
+    color: white;
+    background-color: orangered;
+}
+
+.font-size{
+    font-size: 50px;
+}
+
+#jumbotron-down img{
+    border-radius: 15px;
+}
+
+span{
+    background-color: green;
+    height: 200px;
+}
+
+#playstation-5 div .active-bottom::after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: blue;
+    margin: 50px auto;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+
+.opacity:hover{
+    opacity: 1;
+}
