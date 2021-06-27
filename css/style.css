@@ -26,6 +26,16 @@
     font-weight: 700;
 }
 
+.btn-orange{
+    width: auto;
+    color: white;
+    background-color: orangered;
+}
+
+.font-size{
+    font-size: 50px;
+}
+
 /***Header***/
 
 /*logo Sony*/
@@ -73,25 +83,11 @@ main{
     width: 450px;
 }
 
-.btn-orange{
-    width: auto;
-    color: white;
-    background-color: orangered;
-}
-
-.font-size{
-    font-size: 50px;
-}
-
-#jumbotron-down img{
+#jumbotron-down img,{
     border-radius: 15px;
 }
 
-span{
-    background-color: green;
-    height: 200px;
-}
-
+/*PLAYSTATION 5*/
 #playstation-5 div .active-bottom::after{
     content: '';
     display: block;
@@ -109,9 +105,15 @@ span{
     opacity: 1;
 }
 
+/*IT TAKES TWO*/
 #takes-two{
     padding: 50px 0;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: top;
+}
+
+/*NEW GAMES*/
+#new-games img{
+    border-radius: 30px;
 }
