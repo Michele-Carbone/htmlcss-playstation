@@ -47,6 +47,10 @@ header{
     z-index: 1;
 }
 
+.border-select{
+    border: none;
+  }
+
 a{
     color: black;
     text-decoration: none;
