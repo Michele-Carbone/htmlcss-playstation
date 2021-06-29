@@ -11,52 +11,65 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Playstation-5</title>
+    <title>My Playstation</title>
 </head>
 
 <body>
-    <header class="container.fluid w-100 position-fixed">
-        <nav id="navbar-top" class="bg-black d-flex justify-content-end p-3">
-            <img src="./img/sony_logo.svg" alt="Sony" height="15" id="sony-logo" class="me-1">
-        </nav>
-        <nav id="navbar-bottom" class="container-fluid px-3 py-2 bg-white">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                    <div>
-                        <a href="#"> <img src="./img/play_logo.svg" alt="Playstation"></a>
-                    </div>
-                    <ul class="m-0 d-none d-lg-inline-block font-700">
-                        <li><a href="#jumbotron-top">Giochi <i class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#playstation-5">Hardware <i class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#playstation-plus">Servizi <i class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#new-games">Novità <i class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#playstation-store">Fai acquisti <i class="fas fa-chevron-down"></i></a></li>
-                        <li><a href="#support">Supporto <i class="fas fa-chevron-down"></i></a></li>
-                    </ul>
-                </div>
-                <div id="navbar-bottom-right" class="row align-self-end d-none d-lg-inline-block">
-                    <div class="d-flex">
-                        <div class="col-7 ">
-                            <select class="form-select border-select font-700" aria-label="Default select example">
-                                <option selected><a href="index.html">My PlayStation</a></option>
-                                <option value="1"><a href="myplaystation1.html">My PlayStation One</a></option>
-                                <option value="2">My PlayStation Two</option>
-                                <option value="3">My PlayStation Three</option>
-                            </select>
-                        </div>
-                        <div class="col-5">
-                            <a href="./myplaystation1.html" class="btn btn-dark rounded-pill">Accedi</a>
-                            <i class="fas fa-search fs-2"></i>
-                        </div>
-                    </div>
-                </div>
+    <header>
+        <!--Section Account Name-->
+        <section id="account-name" class="container-fluid">
+            <div class="container pt-5">
+                <div class="row offset-4 col-6 bg-white text-white justify-content-start col-lg-4 font-700">
 
-                <div class="d-inline-block d-lg-none border rounded">
-                    <i class="fas fa-bars fs-3 align-middle py-1 px-2 text-gray"></i>
+                    <div class="bg-black p-3">
+                        <div class="row justify-content-between">
+                            <div class="col-10">
+                                <a href="./index.html"><img src="./img/sony_logo.svg" alt="Sony" height="15"
+                                        id="sony-logo" class="me-1"></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="./index.html"><img src="./img/x-square.svg" alt=""
+                                        class="bg-white btn-prova"></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="bg-primary justify-content-center">
+                        <img class="w-75 pt-3 pb-3" src="./img/ps-now-logo-two-column.png" alt="ps-now-logo-two-column">
+                    </div>
+                    <div class="mt-3">
+                        <h5 class="text-dark">
+                            Accedi a PlayStation con uno dei tuoi account Sony.
+                        </h5>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col ">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="form-floating mt-3 mb-3 text-secondary p-1">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mt-3 mb-3 text-secondary p-1">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center ">
+                            <button class="btn btn-primary w-75 font-700 p-2 mb-3 mt-3">Avanti</button>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-        </nav>
 
+        </section>
     </header>
 </body>
 

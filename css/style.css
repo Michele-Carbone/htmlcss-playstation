@@ -202,4 +202,13 @@ footer ul a:hover{
 .container:hover .overlay {
     opacity: 1;
 }
+
+/*PAGINA MY PLAYSTATION*/
+
+#account-name{
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
     
